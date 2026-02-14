@@ -1,0 +1,65 @@
+
+{
+  "id": "com.dreamfarm.arborlog",
+  "short_name": "ArborLog",
+  "name": "ArborLog Tree Management",
+  "description": "A comprehensive digital ledger for tracking tree health, fruit production, and geographic locations with AI-powered care insights.",
+  "lang": "en-US",
+  "dir": "ltr",
+  "categories": [
+    "productivity",
+    "utilities",
+    "business"
+  ],
+  "icons": [
+    {
+      "src": "https://cdn-icons-png.flaticon.com/512/685/685001.png",
+      "type": "image/png",
+      "sizes": "192x192",
+      "purpose": "any"
+    },
+    {
+      "src": "https://cdn-icons-png.flaticon.com/512/685/685001.png",
+      "type": "image/png",
+      "sizes": "512x512",
+      "purpose": "any"
+    },
+    {
+      "src": "https://cdn-icons-png.flaticon.com/512/685/685001.png",
+      "type": "image/png",
+      "sizes": "512x512",
+      "purpose": "maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "https://images.unsplash.com/photo-1523348837708-15d4a09cfac2?auto=format&fit=crop&q=80&w=1080&h=1920",
+      "sizes": "1080x1920",
+      "type": "image/jpeg",
+      "form_factor": "narrow",
+      "label": "Mobile Dashboard"
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1441333391268-40206622d59d?auto=format&fit=crop&q=80&w=1920&h=1080",
+      "sizes": "1920x1080",
+      "type": "image/jpeg",
+      "form_factor": "wide",
+      "label": "Desktop Inventory View"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "New Record",
+      "short_name": "Add Tree",
+      "description": "Quickly add a new tree to your ledger",
+      "url": "/?action=new",
+      "icons": [{ "src": "https://cdn-icons-png.flaticon.com/512/685/685001.png", "sizes": "192x192" }]
+    }
+  ],
+  "start_url": ".",
+  "background_color": "#f8fafc",
+  "display": "standalone",
+  "scope": "/",
+  "theme_color": "#059669",
+  "orientation": "portrait-primary"
+}

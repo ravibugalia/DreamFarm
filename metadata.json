@@ -1,0 +1,8 @@
+{
+  "name": "ArborLog Tree Management",
+  "description": "A comprehensive digital ledger for tracking tree health, fruit production, and geographic locations with AI-powered care insights. Built for mobile-first inventory management.",
+  "requestFramePermissions": [
+    "camera",
+    "geolocation"
+  ]
+}
