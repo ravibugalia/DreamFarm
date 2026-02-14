@@ -1,15 +1,16 @@
 
 {
-  "id": "com.dreamfarm.arborlog",
+  "id": "com.arborlog.app.v1",
+  "name": "ArborLog: Digital Tree Ledger",
   "short_name": "ArborLog",
-  "name": "ArborLog Tree Management",
-  "description": "A comprehensive digital ledger for tracking tree health, fruit production, and geographic locations with AI-powered care insights.",
+  "description": "A comprehensive professional tool for orchard management. Track individual tree health, species data, fruit production cycles, and geographic locations with AI-powered care recommendations.",
   "lang": "en-US",
   "dir": "ltr",
   "categories": [
     "productivity",
     "utilities",
-    "business"
+    "business",
+    "education"
   ],
   "icons": [
     {
@@ -56,10 +57,10 @@
       "icons": [{ "src": "https://cdn-icons-png.flaticon.com/512/685/685001.png", "sizes": "192x192" }]
     }
   ],
-  "start_url": ".",
-  "background_color": "#f8fafc",
+  "start_url": "./index.html",
   "display": "standalone",
-  "scope": "/",
+  "background_color": "#f8fafc",
   "theme_color": "#059669",
-  "orientation": "portrait-primary"
+  "orientation": "portrait-primary",
+  "scope": "./"
 }
